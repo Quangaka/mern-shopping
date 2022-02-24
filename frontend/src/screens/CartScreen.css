@@ -69,3 +69,9 @@
         margin: 1rem;
     }
 }
+
+.link {
+    text-decoration: none;
+    color: blue;
+    margin-left: 10px;
+}

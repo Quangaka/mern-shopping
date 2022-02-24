@@ -34,14 +34,14 @@ function App() {
         <Backdrop show={sideToggle} click={close} />
         <main>
           <Routes>
+            {/* HomeScreen */}
             <Route exact path="/" element={<HomeScreen/>}/>
+            {/* ProductScreen */}
             <Route exact path="/product/:id" element={<ProductScreen/>}/>
+            {/* CartScreen */}
             <Route exact path="/cart" element={<CartScreen/>}/>
           </Routes>
         </main>
-        {/* HomeScreen */}
-        {/* ProductScreen */}
-        {/* CartScreen */}
     </Router>
   );
 }
